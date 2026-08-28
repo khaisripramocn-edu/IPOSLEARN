@@ -174,17 +174,17 @@ const D=[
 ];
 
 const IMG={
- 'Keyboard':'images/keyboard.png',
- 'Camera':'images/camera dslr.png',
- 'Webcam':'images/webcam.png',
- 'Microphone':'images/microphone.png',
- 'Mouse':'images/mouse.png',
- 'CPU':'images/CPU.png',
- 'Screen':'images/display.png',
- 'Speaker':'images/speaker.png',
- 'Printer':'images/printer.png',
- 'SSD':'images/ssd.png',
- 'Hard Drive':'images/HHD.png'
+ 'Keyboard':'keyboard.png',
+ 'Camera':'camera dslr.png',
+ 'Webcam':'webcam.png',
+ 'Microphone':'microphone.png',
+ 'Mouse':'mouse.png',
+ 'CPU':'CPU.png',
+ 'Screen':'display.png',
+ 'Speaker':'speaker.png',
+ 'Printer':'printer.png',
+ 'SSD':'ssd.png',
+ 'Hard Drive':'HHD.png'
 };
 const FALL={'Keyboard':'⌨️','Camera':'📷','Microphone':'🎤','Touchpad':'🖱️','CPU':'⚙️','Screen':'🖥️','Speaker':'🔊','Printer':'🖨️','SSD':'💾','Hard Drive':'💽'};
 function devHTML(n,small=false){return `<img src="${IMG[n]}" alt="ภาพ ${n}" onerror="this.style.display='none';this.nextElementSibling.style.fontSize='42px'"><span style="display:none">${FALL[n]||'💻'}</span><span class="dn">${n}</span>`}
